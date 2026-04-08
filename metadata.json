@@ -1,0 +1,5 @@
+{
+  "name": "Remix: Conversation Manager",
+  "description": "A modern dashboard to manage and update chat conversations via the Base44 API.",
+  "requestFramePermissions": []
+}
