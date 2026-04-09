@@ -4,33 +4,8 @@ A full-featured real-time chat application built for seamless, instant communica
 
 <img width="740" height="1220" alt="image" src="https://github.com/user-attachments/assets/5758358b-c7ed-4cbc-a849-4b1d5c87762d" />
 
-⚙️ Setup & Installation
-Prerequisites
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/62ee40c7-40fd-4168-af01-935cd1f22aa1" />
 
-Node.js v18+
-MongoDB running locally (or MongoDB Atlas URI)
-
-1. Clone the repository
-bash
-git clone https://github.com/your-username/daft-connect.git
-cd daft-connect
-2. Setup Backend
-bashcd server
-npm install
-Edit server/.env:
-envPORT=5000
-MONGO_URI=mongodb://localhost:27017/daft_connect_db
-JWT_SECRET=your_super_secret_jwt_key
-NODE_ENV=development
-Start the server:
-bashnpm start
-# or for development with auto-reload:
-npm run dev
-3. Setup Frontend
-bashcd client
-npm install
-npm run dev
-The app runs at http://localhost:3000
 <img width="820" height="919" alt="image" src="https://github.com/user-attachments/assets/84092f45-0717-4698-a1e1-f58b757eaf20" />
 
 
