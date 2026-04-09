@@ -1,11 +1,7 @@
 💬 connectify — Real-Time Chat Application
 A full-featured real-time chat application built for seamless, instant communication.
-🚀 Tech Stack
-LayerTechnology
-FrontendReact.js + Vite + Tailwind CSS
-BackendNode.js + Express.jsDatabaseMongoDB (Mongoose)
-Real-TimeSocket.IOAuthJWT (JSON Web Tokens)
-StylingCustom theme + Modern UI
+<img width="820" height="598" alt="image" src="https://github.com/user-attachments/assets/d1bb8c49-98ef-4c37-8f05-171ef6b8ddab" />
+
 <img width="740" height="1220" alt="image" src="https://github.com/user-attachments/assets/5758358b-c7ed-4cbc-a849-4b1d5c87762d" />
 
 ⚙️ Setup & Installation
@@ -36,22 +32,10 @@ npm install
 npm run dev
 The app runs at http://localhost:3000
 <img width="820" height="919" alt="image" src="https://github.com/user-attachments/assets/84092f45-0717-4698-a1e1-f58b757eaf20" />
-✨ Features
-⚡ Real-time messaging powered by Socket.IO
-🟢 Live online/offline user presence indicators
-💬 Multiple chat rooms support
-📱 Fully mobile responsive design
-🔔 Toast notifications for new messages
-✍️ Typing indicators
-🕐 Message timestamps
-🔐 Protected routes with JWT auth
-Backend
 
-🔌 Socket.IO for bi-directional real-time events
-🔐 JWT authentication with bcryptjs password hashing
-🗄️ Persistent message history with MongoDB
-🌐 CORS configured for frontend origin
-⚠️ Global error handling middleware
+
+<img width="820" height="867" alt="image" src="https://github.com/user-attachments/assets/b019794e-ef8f-4706-b83d-84057655abeb" />
+
 
  the Use Case Diagram, showing the interactions between actors and the system:
    <img width="860" height="780" alt="image" src="https://github.com/user-attachments/assets/5810f764-3f1f-4b55-9213-36f17f8c2dba" />
