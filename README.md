@@ -6,26 +6,8 @@ FrontendReact.js + Vite + Tailwind CSS
 BackendNode.js + Express.jsDatabaseMongoDB (Mongoose)
 Real-TimeSocket.IOAuthJWT (JSON Web Tokens)
 StylingCustom theme + Modern UI
-daft-connect/
-├── client/                   # React frontend
-│   └── src/
-│       ├── components/       # Navbar, ChatBox, MessageBubble, UserList
-│       ├── context/          # AuthContext, SocketContext
-│       ├── pages/
-│       │   ├── LoginPage.jsx
-│       │   ├── RegisterPage.jsx
-│       │   ├── ChatPage.jsx
-│       │   └── ProfilePage.jsx
-│       └── services/
-│           └── api.js        # Axios API service
-│
-└── server/                   # Express backend
-    ├── controllers/          # authController, messageController, roomController
-    ├── middleware/           # authMiddleware (JWT)
-    ├── models/               # User, Message, Room schemas
-    ├── routes/               # authRoutes, messageRoutes, roomRoutes
-    ├── socket/               # Socket.IO event handlers
-    └── server.js             # Entry point
+<img width="740" height="1220" alt="image" src="https://github.com/user-attachments/assets/5758358b-c7ed-4cbc-a849-4b1d5c87762d" />
+
 ⚙️ Setup & Installation
 Prerequisites
 
@@ -92,4 +74,10 @@ Backend
 ⚠️ Global error handling middleware
 
  the Use Case Diagram, showing the interactions between actors and the system:
-   <img width="860" height="780" alt="image" src="https://github.com/user-attachments/assets/6b98b203-fa55-4b00-8034-bb7dd251cd01" />
+   <img width="860" height="780" alt="image" src="https://github.com/user-attachments/assets/5810f764-3f1f-4b55-9213-36f17f8c2dba" />
+the Class Diagram, showing the structure of the codebase:
+<img width="1000" height="755" alt="image" src="https://github.com/user-attachments/assets/b3657c7d-e132-4494-974a-eb442830d5b1" />
+the ER Diagram, showing the structure:
+<img width="860" height="780" alt="image" src="https://github.com/user-attachments/assets/40aac4b7-db49-4488-bf82-b96cb1d8a175" />
+
+
