@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/b65f85ee-741b-4a36-842e-86310fa28d20
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+■ Daft Connect Chat Zone — Real-Time Chat
+Application
+A modern real-time chat application that enables instant messaging, live user interaction, and
+seamless communication across clients.
+■ Tech Stack
+Frontend: React.js + Vite + Tailwind CSS
+Backend: Node.js + Express.js
+Real-Time: Socket.IO / WebSockets
+Database: MongoDB (Mongoose)
+Auth: JWT (JSON Web Tokens)
+Styling: Modern UI + Responsive Design
+■ Project Structure
+chat-app/
+■■■ client/
+■ ■■■ src/
+■ ■■■ components/
+■ ■■■ context/
+■ ■■■ pages/
+■ ■■■ services/
+■■■ server/
+ ■■■ controllers/
+ ■■■ middleware/
+ ■■■ models/
+ ■■■ routes/
+ ■■■ sockets/
+ ■■■ server.js
+■■ Setup & Installation
+Prerequisites: Node.js v18+, MongoDB
+Backend Setup
+cd server
+npm install
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/chat_db
+JWT_SECRET=your_secret_key
+npm start
+Frontend Setup
+cd client
+npm install
+npm run dev
+http://localhost:5173
+■ Features
+- Real-time messaging with instant updates
+- Fully responsive chat UI
+- User authentication with JWT
+- Online/offline user tracking
+- Persistent chat storage
+- Socket-based communication
