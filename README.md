@@ -35,28 +35,8 @@ bashcd client
 npm install
 npm run dev
 The app runs at http://localhost:3000
-🌐 Pages
-Route            Description
-/                Landing / Login page
-/register        Create a new account
-/chat            Main real-time chat interface
-/profile         User profile & settings
- API Endpoints
-Auth
-POST /api/auth/register    # Register new user
-POST /api/auth/login       # Login (returns JWT)
-GET  /api/auth/profile     # Get user profile (protected)
-Messages
-GET    /api/messages/:roomId     # Get messages for a room
-POST   /api/messages             # Send a message
-DELETE /api/messages/:id         # Delete a message
-Rooms
-GET    /api/rooms          # Get all available rooms
-POST   /api/rooms          # Create a new room
-DELETE /api/rooms/:id      # Delete a room
+<img width="820" height="919" alt="image" src="https://github.com/user-attachments/assets/84092f45-0717-4698-a1e1-f58b757eaf20" />
 ✨ Features
-Frontend
-
 ⚡ Real-time messaging powered by Socket.IO
 🟢 Live online/offline user presence indicators
 💬 Multiple chat rooms support
